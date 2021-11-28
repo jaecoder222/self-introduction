@@ -1,0 +1,157 @@
+html { 
+  scroll-behavior: smooth; 
+} 
+.nav {
+  background-color: #5a5a5a;
+  border-bottom: 1px solid #eee;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+h1 {
+  color: #eee;
+  cursor: pointer;
+}
+.menu {
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+  color: #eee;
+  margin: 10px;
+  font-size: 25px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin:60px auto 130px;
+  max-width: 960px;
+}
+.about .picture {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 70%;
+  margin: 20px;
+}
+.about .picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fontside {
+  text-align:start;
+  margin: 20px;
+} 
+h1.main {
+  color: #000;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  margin-bottom: 50px;
+}
+h2.sub {
+  color: #000;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  margin-bottom: 35px;
+}
+.p {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.p p {
+  margin-bottom: 30px;
+}
+
+.interest {
+  padding-top: 80px;
+  padding-bottom: 150px;
+  margin-bottom: 160px;
+  color: #eee;
+  background-color: #5a5a5a;
+}
+.interest-center {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  max-width: 20rem;
+  background-color: #eee;
+  margin: 20px auto 60px;
+}
+.interest-content {
+  display: flex;
+  justify-content: center;
+}
+.interest-content p {
+  font-size: 15px;
+  color: #eee;
+  line-height: 40px;
+}
+.tmi {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  color:#000;
+}
+.tmi-center {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.tmi-line {
+  width: 100%;
+  height: .25rem;
+  border-radius: 1rem;
+  max-width: 20rem;
+  background-color: #000;
+  margin: 20px auto 60px;
+}
+.tmi-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.tmi-content p {
+  font-size: 15px;
+  line-height: 40px;
+  color: #000
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #5a5a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 20px;
+  color: #eee;
+}
